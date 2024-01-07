@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p{
+    color: rgba(7, 2, 17, 0.60);
+
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.container {
+  border: 10px solid;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.banner-background {
+  background-image: url("../resources/Banner\ Image.png");
+  height: 600px;
+}
+
+.banner-text {
+  text-align: center;
+  align-items: center;
+  margin: 177px 344px;
+}
+
+.banner-text p {
+  color: #fff;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-text h1 {
+  color: #fff;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* BANNER END */
+
+/*  */
+
+.primary-red-color {
+  color: #f00;
+  font-size: 24px;
+}
+
+.categories {
+  border: 10px solid red;
+  margin: 120px 400px;
+  text-align: center;
+  justify-content: center;
+}
+.categories-content h3 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.categories-content p {
+  color: #f00;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.categories-content h5 {
+  color: #070211;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.categories-img {
+  border: 5px solid;
+  overflow: hidden;
+}
+
+.categories-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CATEGORIES ENDS */
+
+/* WELCOME PARTY STARTS */
+
+.party-background {
+  background-image: url("../resources/Vectorrr.png");
+  height: 600px;
+}
+
+.party{
+    margin: 67px 126px ;
+    display: flex;
+    gap: 39px;
+}
+
+
+.welcome-party{
+    border: 10px solid saddlebrown;
+    justify-content: center;
+align-items: center;
+
+
+    
+}
+.welcome-party h2 {
+  color: #fff;
+
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.welcome-party p {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.welcome-party button {
+  color: #fff;
+  background-color: #070211;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+/* WELCOME PARTY ENDS */
+
+/* PLACE STARTS */
+
+.place{
+    height: 482px;
+    text-align: center;
+    margin: 100px 385px;
+    justify-content: center;
+align-items: center;
+
+}
+
+.place-background{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+
+.place h5{
+
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+
+}
+
+.place button{
+    margin-top: 48px;
+    padding: 16px 32px;
+    border-radius: 8px;
+background: #F00;
+color: white;
+border: none;
+
+}
+/* PLACE ENDS */
+
+
+/* COMING SOON STARTS */
+.coming-soon{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin: 100px 0px;
+    justify-content: space-between;
+}
+
+
+.offer h6{
+    color: #F00;
+
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.offer h4{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+.year h4{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.year img{
+    width: 140px;
+    height: 140px;
+}
+
+.portfolio{
+    width: 60%;
+}
+.portfolio-img {
+    display: flex; 
+  flex-wrap: wrap;
+  gap: 24px;
+}
