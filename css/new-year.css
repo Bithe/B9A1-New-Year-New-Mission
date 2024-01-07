@@ -269,6 +269,6 @@ text-transform: capitalize;
 }
 .portfolio-img {
     display: flex; 
-  flex-wrap: wrap;
+  display: inline-block;
   gap: 24px;
 }
