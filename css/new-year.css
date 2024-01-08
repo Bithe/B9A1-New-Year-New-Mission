@@ -22,37 +22,36 @@ p {
   margin-bottom: 120px;
 }
 
+/* BANNER STARTS */
+
 .banner-background {
   background-image: url("../resources/Banner\ Image.png");
   height: 600px;
 }
 
 .banner-text {
+  
   text-align: center;
   align-items: center;
+  justify-content: center;
   margin: 177px 344px;
 }
 
 .banner-text p {
   color: #fff;
-
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .banner-text h1 {
   color: #fff;
-
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 95px;
+  
 }
 
 /* BANNER END */
@@ -211,6 +210,10 @@ p {
 /* PLACE ENDS */
 
 /* COMING SOON STARTS */
+
+.b{
+  width:  33.33%;
+}
 .coming-soon {
   display: flex;
   gap: 70px;
