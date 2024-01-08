@@ -7,12 +7,10 @@
 
 p {
   color: rgba(7, 2, 17, 0.6);
-
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
 }
 .container {
   border: 10px solid;
@@ -30,7 +28,6 @@ p {
 }
 
 .banner-text {
-  
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -51,12 +48,11 @@ p {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
-  
 }
 
 /* BANNER END */
 
-/*  */
+/* ALL CATEGORIES STARTS*/
 
 .primary-red-color {
   color: #f00;
@@ -135,7 +131,6 @@ p {
 }
 .welcome-party h2 {
   color: #fff;
-
   font-family: Merriweather;
   font-size: 64px;
   font-style: normal;
@@ -147,7 +142,6 @@ p {
 
 .welcome-party p {
   color: rgba(255, 255, 255, 0.8);
-
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -211,62 +205,54 @@ p {
 
 /* COMING SOON STARTS */
 
-.b{
-  width:  33.33%;
+.b {
+  width: 33.33%;
 }
 .coming-soon {
   display: flex;
   gap: 70px;
-  justify-content: center;
   margin: 100px 0px;
   justify-content: space-between;
   align-items: center;
 }
 
-
 .offer h6 {
   color: #f00;
-
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  margin-bottom: 16px;
 }
 
 .offer h4 {
   color: #070211;
-
   font-family: Merriweather;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
-  text-transform: capitalize;
+  margin-bottom: 22px;
 }
 
-.coming-soon-img{
+.coming-soon-img {
   border: 10px solid red;
   border-radius: 50%;
 }
 
-.coming-soon-img{
+.coming-soon-img {
   padding: 49px;
 }
 
 .year h4 {
-  color: #f00;
-
   font-family: Inter;
+  margin-bottom: 16px;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  color: #f00;
 }
 
 .year img {
   width: 140px;
   height: 140px;
+  margin-top: 43px;
 }
 /*  */
 
@@ -275,35 +261,48 @@ p {
 .portfolio {
   width: 60%;
 }
-.portfolio H6 {
+.portfolio h6 {
   color: #f00;
-
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
+  margin-bottom: 16px;
   font-weight: 500;
-  line-height: normal;
 }
 
 .portfolio h4 {
   color: #070211;
-
+  margin-bottom: 22px;
   font-family: Merriweather;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
-  text-transform: capitalize;
 }
 
-.portfolio-img {
+/* .portfolio-img {
   display: flex;
   display: inline-block;
-  gap: 240px;
+  gap: 24px;
   margin-top: 48px;
   vertical-align: middle;
   justify-content: space-between;
+} */
+
+
+.portfolio-img{
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 48px;
   
+}
+
+.portfolio-img .images{
+  width: 400px;
+}
+
+.portfolio-img .images img{
+  width: 100%;
 }
 
 /*  */
@@ -359,7 +358,7 @@ footer {
 }
 
 .footer {
-  margin: 120px 140px 0 140px;
+  margin: 120px 0 120px 0px;
 }
 footer .container {
   margin-bottom: 0;
@@ -382,8 +381,16 @@ footer .container {
 hr {
   margin: 50px 0;
 }
+
+.contact i{
+  margin: 0 16px;
+}
 .social-links {
   text-align: center;
+}
+
+.social-links img{
+  margin-left: 24px;
 }
 .copyright {
   display: flex;
