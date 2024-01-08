@@ -251,7 +251,6 @@ header .container {
 
 }
 
-
 .year h4 {
   font-family: Inter;
   margin-bottom: 16px;
@@ -343,9 +342,6 @@ margin: 0 auto 64px auto;
   transform: translate(-10%, 9%);
 }
 
-
-
-
 /* HOLIDAY ENDS */
 
 /* PORTFOLIO STARTS*/
@@ -400,7 +396,7 @@ margin: 0 auto 64px auto;
   transform: scale(1.2);
 }
 
-/*  */
+/* PORTFOLIO ENDS */
 
 /* NEWSLETTER STARTS */
 .newsletter-background {
