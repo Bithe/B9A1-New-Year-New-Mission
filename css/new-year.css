@@ -271,6 +271,83 @@ header .container {
 }
 /*COMING SOON ENDS  */
 
+
+
+/* HOLIDAY STARTS */
+
+.sale{
+  text-align: center;
+  align-items: center;
+}
+
+
+.sale h5{
+  
+color: #070211;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.sale h1{
+  color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-bottom: 28px;
+}
+
+.sale p{
+  color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+width: 70%;
+align-items: center;
+margin: 0 auto 64px auto;
+}
+
+.sale-flex-img{
+  display: flex;
+}
+
+.sale-discount-background{
+  background-image: url('../resources/Rectangle\ 1.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  transform: translate( 0, 1%);
+  /* object-fit: cover;
+  height: 100%; */
+}
+
+.sale-banner-background{
+  background-image: url('../resources/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  align-items: end;
+  vertical-align: top;
+}
+
+.discount-img{
+  /* vertical-align: bottom; */
+  transform: translate(-10%, 9%);
+}
+
+
+
+
+/* HOLIDAY ENDS */
+
 /* PORTFOLIO STARTS*/
 
 .portfolio {
