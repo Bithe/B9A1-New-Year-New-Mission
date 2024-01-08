@@ -212,11 +212,18 @@ header .container {
 .coming-soon {
   display: flex;
   gap: 70px;
-  margin: 100px 0px;
+  /* margin: 100px 0px; */
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  
+  border: 10px solid beige;
+
 }
 
+.offer, .coming-soon-img, .year{
+  border: 10px solid gainsboro;
+}
 .offer h6 {
   color: #f00;
   font-family: Inter;
@@ -235,12 +242,15 @@ header .container {
 
 .coming-soon-img {
   border: 10px solid red;
-  border-radius: 50%;
+  border-radius: 49%;
 }
 
 .coming-soon-img {
   padding: 49px;
+  margin-right: 118px;
+
 }
+
 
 .year h4 {
   font-family: Inter;
@@ -249,11 +259,15 @@ header .container {
   font-weight: 700;
   color: #f00;
 }
+.year p{
+  margin-bottom: 48px;
+
+}
 
 .year img {
-  width: 140px;
-  height: 140px;
-  margin-top: 43px;
+  /* margin-top: 43px; */
+  position: absolute;
+  bottom: 0;
 }
 /*COMING SOON ENDS  */
 
@@ -340,7 +354,6 @@ header .container {
 .subscribe-button input[type="email"] {
   padding: 25px 77px 25px 30px;
   color: rgba(7, 2, 17, 0.3);
-
   text-align: center;
   font-family: Inter;
   font-size: 18px;
@@ -351,6 +364,7 @@ header .container {
 .subscribe-button .btn-input {
   border-radius: 50px 0px 0px 50px;
 }
+
 .btn-subscribe {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
@@ -394,6 +408,10 @@ footer .container {
 
 hr {
   margin: 50px 0;
+}
+
+.contact {
+  margin-right: 10%;
 }
 
 .contact img {
