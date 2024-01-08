@@ -13,7 +13,7 @@ p {
   font-weight: 400;
 }
 .container {
-  border: 10px solid;
+ 
   width: 90%;
   margin: 0 auto;
   max-width: 1320px;
@@ -21,6 +21,9 @@ p {
 }
 
 /* BANNER STARTS */
+header .container{
+  margin: 50px auto;
+}
 
 .banner-background {
   background-image: url("../resources/Banner\ Image.png");
@@ -31,7 +34,8 @@ p {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 177px 344px;
+  padding: 177px 344px;
+  
 }
 
 .banner-text p {
@@ -40,6 +44,7 @@ p {
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
+  margin-bottom: 16px;
 }
 
 .banner-text h1 {
@@ -60,7 +65,7 @@ p {
 }
 
 .categories {
-  border: 10px solid red;
+  /* border: 10px solid red; */
   margin: 0 400px 0 400px;
   text-align: center;
   justify-content: center;
@@ -72,24 +77,22 @@ p {
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
   margin-bottom: 48px;
 }
 
 .categories-content p {
   color: #f00;
-
   text-align: center;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 16px;
 }
 
 .categories-content h5 {
   color: #070211;
-
   text-align: center;
   font-family: Inter;
   font-size: 48px;
@@ -99,7 +102,6 @@ p {
   margin-bottom: 48px;
 }
 .categories-img {
-  border: 5px solid;
   overflow: hidden;
 }
 
@@ -119,13 +121,14 @@ p {
 }
 
 .party {
-  margin: 67px 126px;
+  padding: 67px 126px;
   display: flex;
   gap: 39px;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-party {
-  border: 10px solid saddlebrown;
   justify-content: center;
   align-items: center;
 }
@@ -254,7 +257,8 @@ p {
   height: 140px;
   margin-top: 43px;
 }
-/*  */
+/*COMING SOON ENDS  */
+
 
 /* PORTFOLIO STARTS*/
 
@@ -303,6 +307,11 @@ p {
 
 .portfolio-img .images img{
   width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-img .images img:hover{
+  transform: scale(1.2);
 }
 
 /*  */
@@ -350,6 +359,8 @@ p {
   border: none;
   padding: 25px 56px;
 }
+
+/*  */
 
 /* footer */
 

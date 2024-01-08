@@ -1,0 +1,29 @@
+* BANNER STARTS */
+
+.banner-background {
+  background-image: url("../resources/Banner\ Image.png");
+  height: 600px;
+}
+
+.banner-text {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 177px 344px;
+}
+
+.banner-text p {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner-text h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
