@@ -206,24 +206,25 @@ header .container {
 
 /* COMING SOON STARTS */
 
+.bd{
+  border: 20px solid red;
+}
+
 .b {
   width: 33.33%;
 }
 .coming-soon {
   display: flex;
-  gap: 70px;
+  /* gap: 70px; */
   /* margin: 100px 0px; */
   justify-content: space-between;
   align-items: center;
   position: relative;
-  
-  border: 10px solid beige;
+ 
 
 }
 
-.offer, .coming-soon-img, .year{
-  border: 10px solid gainsboro;
-}
+
 .offer h6 {
   color: #f00;
   font-family: Inter;
@@ -504,3 +505,15 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+
+
+
