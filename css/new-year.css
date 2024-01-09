@@ -1,15 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Merriweather:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
 }
 
+/* PRIMARY */
 p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
   font-size: 20px;
-  font-style: normal;
+
+  font-family: 'Inter', sans-serif;
+
   font-weight: 400;
   line-height: 32px;
 }
@@ -40,7 +42,7 @@ header .container {
 .banner-text p {
   color: #fff;
   text-align: center;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -49,7 +51,7 @@ header .container {
 .banner-text h1 {
   color: #fff;
   text-align: center;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 72px;
   font-weight: 900;
 }
@@ -72,9 +74,10 @@ header .container {
 .categories-content h3 {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 88px;
-  font-style: normal;
+  
   font-weight: 700;
   margin-bottom: 48px;
 }
@@ -82,22 +85,22 @@ header .container {
 .categories-content p {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 24px;
-  font-style: normal;
+  
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 16px;
 }
 
 .categories-content h5 {
   color: #070211;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 48px;
-  font-style: normal;
+  
   font-weight: 700;
-  line-height: normal;
   margin-bottom: 48px;
 }
 .categories-img {
@@ -133,9 +136,9 @@ header .container {
 }
 .welcome-party h2 {
   color: #fff;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 64px;
-  font-style: normal;
+  
   font-weight: 900;
   line-height: 88px; /* 137.5% */
   letter-spacing: 7.04px;
@@ -144,9 +147,10 @@ header .container {
 
 .welcome-party p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 18px;
-  font-style: normal;
+  
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 48px;
@@ -157,15 +161,16 @@ header .container {
   background-color: #070211;
 
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 20px;
-  font-style: normal;
+  
   font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   border: none;
   margin-left: 32px;
 }
+
 
 /* WELCOME PARTY ENDS */
 
@@ -187,9 +192,10 @@ header .container {
 }
 
 .place h5 {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 32px;
-  font-style: normal;
+  
   font-weight: 600;
   line-height: 56px; /* 175% */
   text-transform: capitalize;
@@ -203,10 +209,17 @@ header .container {
   background: #f00;
   color: white;
   border: none;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 20px;
-  font-style: normal;
+  
   font-weight: 700;
+}
+
+.place button a{
+  /* list-style: none; */
+  text-decoration: none;
+  color: white;
 }
 /* PLACE ENDS */
 
@@ -231,7 +244,8 @@ header .container {
 
 .offer h6 {
   color: #f00;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
@@ -239,7 +253,7 @@ header .container {
 
 .offer h4 {
   color: #070211;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 22px;
@@ -256,7 +270,8 @@ header .container {
 }
 
 .year h4 {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   margin-bottom: 16px;
   font-size: 48px;
   font-weight: 700;
@@ -282,35 +297,34 @@ header .container {
 
 .sale h5 {
   color: #070211;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 24px;
-  font-style: normal;
+  
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 16px;
 }
 
 .sale h1 {
   color: #070211;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 72px;
-  font-style: normal;
+  
   font-weight: 900;
-  line-height: normal;
   margin-bottom: 28px;
 }
 
 .sale p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   line-height: 32px;
   width: 70%;
   align-items: center;
   margin: 0 auto 64px auto;
+  font-size: 20px;
+  
 }
 
 .sale-flex-img {
@@ -348,7 +362,8 @@ header .container {
 }
 .portfolio h6 {
   color: #f00;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 24px;
   margin-bottom: 16px;
   font-weight: 500;
@@ -357,7 +372,7 @@ header .container {
 .portfolio h4 {
   color: #070211;
   margin-bottom: 22px;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 48px;
   font-weight: 900;
 }
@@ -381,8 +396,10 @@ header .container {
 }
 
 .portfolio-img .images {
+  border-radius: 16px;
   width: 424px;
   height: 450px;
+  
 }
 
 .portfolio-img .images img {
@@ -410,11 +427,10 @@ header .container {
 .subscribe-newsletter h4 {
   color: #070211;
   margin: 40px 0px 22px 0;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 48px;
-  font-style: normal;
+  
   font-weight: 900;
-  line-height: normal;
   text-transform: capitalize;
 }
 
@@ -429,9 +445,11 @@ header .container {
   padding: 25px 267px 25px 30px;
   color: rgba(7, 2, 17, 0.3);
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
+
   font-size: 18px;
-  font-style: normal;
+  
   font-weight: 400;
   border: none;
 }
@@ -447,7 +465,8 @@ header .container {
   padding: 24px 56px;
   font-size: 20px;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-weight: 600;
 }
 
@@ -474,9 +493,10 @@ footer .container {
 .copyright p {
   color: white;
 
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 24px;
-  font-style: normal;
+  
   font-weight: 500;
 }
 
