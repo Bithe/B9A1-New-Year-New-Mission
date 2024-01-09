@@ -17,6 +17,7 @@ p {
   margin: 0 auto;
   max-width: 1320px;
   margin-bottom: 120px;
+ 
 }
 
 /* BANNER STARTS */
@@ -213,9 +214,14 @@ header .container {
   display: flex;
   /* gap: 70px; */
   /* margin: 100px 0px; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  justify-content: center;
   position: relative;
+}
+
+.offer{
+  margin-right: 70px;
 }
 
 .offer h6 {
